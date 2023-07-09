@@ -1,0 +1,30 @@
+@import "/src/assets/css/variables.scss";
+
+.categoryCard {
+  position: relative;
+  width: 248px;
+  height: 345px;
+  overflow: hidden;
+  border-radius: 4px;
+  .title {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    padding: 16px;
+    p {
+      margin: 0px;
+      color: white;
+      font-family: $Poppins;
+    }
+
+    p:first-child {
+      font-size: 16px;
+    }
+
+    p:last-child {
+      font-size: 24px;
+      font-size: 600;
+    }
+    
+  }
+}

@@ -1,0 +1,57 @@
+@import "/src/assets/css/variables.scss";
+
+.sellingPropositionWrapper {
+  padding: 0px 32px;
+  background-color: white;
+  margin-bottom: 96px;
+
+  .logomakerContainer {
+    background-color: $logo-maker-container;
+    margin: 0px;
+    max-width: 100%;
+    padding: 0px 32px;
+  }
+
+  .logomakerRow {
+    background-image: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1160,dpr_1.0/v1/attachments/generic_asset/asset/b49b1963f5f9008f5ff88bd449ec18f7-1608035772453/logo-maker-banner-wide-desktop-1352-2x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .brandName {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: $Caprasimo;
+    margin-bottom: 32px;
+    color: white;
+    span {
+      font-family: $Poppins;
+    }
+  }
+
+  .fontDomaine{
+    font-size: 48px;
+    font-family: $DancingScript;
+    font-weight: bold;
+    max-width: 350px;
+    color: white;
+  }
+
+  .textBody {
+    font-size: 16px;
+    font-family: $SignikaNegative;
+    font-weight: 400;
+    max-width: 350px;
+    color: white;
+  }
+
+  .submitButton {
+    font-size: 16px;
+    font-weight: bold;
+    color: $logo-maker-container
+  }
+
+  
+  
+}

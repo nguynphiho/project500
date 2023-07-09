@@ -1,0 +1,16 @@
+@import "/src/assets/css/variables.scss";
+.trustedByWrapper {
+  background-color: #f6f6f6;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 96px;
+  .trustedBlock {
+    min-width: 100px;
+    font-size: 16px;
+    color: $light-gray;
+    font-family: $Poppins;
+    font-weight: 800;
+  }
+}

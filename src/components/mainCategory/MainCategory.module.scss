@@ -1,0 +1,56 @@
+@import "/src/assets/css/variables.scss";
+
+.title {
+  padding-bottom: 24px;
+  margin-bottom: 40px;
+}
+
+.categoryListContainer {
+  .categoriesList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      width: 20%;
+      min-width: 190px;
+      text-align: center;
+      list-style-type: none;
+      padding: 0px 10px 55px 10px;
+      a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: $Poppins;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        word-wrap: none;
+        color: black;
+        row-gap: 8px;
+        img {
+            width: 48px;
+            height: 48px;
+            object-fit: cover;  
+        }
+
+        .line {
+          height: 2px;
+          width: 25%;
+          background-color: $light-gray;
+          transition: all .5s;
+        }
+      }
+      
+      &:hover {
+        a {
+          .line {
+            background-color: $primary-color;
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}

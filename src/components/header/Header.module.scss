@@ -1,0 +1,39 @@
+@import "/src/assets/css/variables.scss";
+.header {
+  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  
+  
+  .brand {
+    font-size: 36px;
+    font-weight: 300;
+    font-family: $Caprasimo;
+    color: white;
+    &.isNotTop {
+      color: black;
+    }
+  }
+
+  .navlink {
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: $Poppins;
+    margin: 0px 8px;
+    color: white;
+
+    &:hover {
+      color: $primary-color;
+    }
+
+    &div[class^="active"] {
+      color: $primary-color !important;
+    }
+
+    &.isNotTop {
+      color: black;
+    }
+  }
+
+
+}
