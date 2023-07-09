@@ -1,4 +1,7 @@
 @import "/src/assets/css/variables.scss";
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
 .primary-outline-button {
 	color: white !important; 
 	background-color: transparent !important;

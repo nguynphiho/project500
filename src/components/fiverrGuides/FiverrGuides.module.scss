@@ -1,0 +1,32 @@
+@import "/src/assets/css/variables.scss";
+
+.guidesWrapper {
+  margin-bottom: 96px;
+  .title {
+    font-family: $Poppins;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }  
+}
+
+.joinFiverr {
+  margin-top: 96px;
+  height: 350px;
+  border-radius: 8px;
+  background-color: red;
+  background-image: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1160,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608114/bg-signup-1160-x1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 96px 40px;
+  flex-direction: column;
+  h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+  }
+}

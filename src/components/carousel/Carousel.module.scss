@@ -1,8 +1,10 @@
 @import "/src/assets/css/variables.scss";
 .carouselContainer {
   position: relative;
+  padding: 96px;
 
   .prevSlide {
+    position: absolute;
     width: 48px;
     height: 48px;
     display: flex;
@@ -10,23 +12,33 @@
     justify-content: center;
     position: absolute;
     top: 50%;
-    left: 0px;
+    left: -10px;
     transform: translateY(-50%);
+    z-index: 1;
+    border-radius: 50%;
   }
 
   .nextSlide {
+    position: absolute;
     width: 48px;
     height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 50%;
-    right: 0px;
+    right: -10px;
     transform: translateY(-50%);
+    z-index: 1;
+    border-radius: 50%;
   }
 
   .carouselTitle {
-    font-family: $Poppins;
     font-weight: 600;
+    color: #686868;
+  }
+
+  .custom-prev-arrow
+  .custom-next-arrow {
+    border-radius: 50%;
   }
 }
